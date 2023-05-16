@@ -48,7 +48,7 @@
         },
         {
           "style": "plain",
-          "template": "<darkGray>on</> <white>git:</><cyan>{{ .HEAD }}</>{{ if .Working.Changed }}<red> x</>{{ end }} ",
+          "template": "<darkGray>on</> <white>git:</><cyan>{{ .HEAD }}</>{{ if .Working.Changed }}<red> \ueafe</>{{ else }}<green> \ueafe</>{{ end }} ",
           "type": "git",
           "properties": {
             "fetch_status": true
